@@ -56,6 +56,7 @@
     <!-- Header -->
     <header class="header" id="top">
       <div class="text-vertical-center">
+        <img src="img/IMG_7677 (3).JPG" class = "rounded-circle img-fluid img-thumbnail" >
         <h1>Ciprian Buciumean</h1>
         <h3>.NET Developer &amp; Entrepreneur</h3>
         <br>
@@ -218,7 +219,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
+            <form action = "https://formspree.io/cnbucium@gmail.com" mothod = "POST" id="contactForm" name="sentMessage">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -243,7 +244,7 @@
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                  <input id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" value = "Send Message">
                 </div>
               </div>
             </form>
